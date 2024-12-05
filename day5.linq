@@ -95,6 +95,6 @@ public class RuleComparator : Comparer<int>
 			}
 		}
 		
-		return -Math.Sign(x-y);
+		return 0;// Don't do this: -Math.Sign(x-y);
     }
 }
